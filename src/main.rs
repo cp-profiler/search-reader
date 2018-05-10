@@ -75,7 +75,7 @@ fn main() {
     .arg(Arg::with_name("debug")
       .short("d")
       .long("debug")
-      .help("send nodes one-by-one. (unimplemented)")
+      .help("send nodes one-by-one")
       .takes_value(false))
 
     .get_matches();
